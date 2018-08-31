@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 8px;
+    background: url(images/gaming-pattern.png) lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    float: left;
+    width: 700px;
+    color: whitesmoke;
+}
+
+form {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    max-width: 960px;
+}
+
+.content h1 {
+    color: floralwhite;
+    padding: 0 0 0 10px;
+    margin: 10px 0 0 20px;
+}
+
+.portfolio h3 {
+    background-color: #343a40;
+    color: lightslategray;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+}
+
+
+.footer {
+    margin: 0 auto;
+    flex-shrink: 0;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 16px 0;
+}
+
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    flex: 1 0 auto;
+    background-color: rgba(73, 73, 73, 0.9);
+    margin: 20px auto;
+}
+
+.contact {
+    margin: 0 0 10px 0;
+}
+
+.portfolio {
+    margin: 0 0 20px 0;
+    max-height: 350px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border: solid 5px #343a40;
+}
+
+#profilepic {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 0 10px 10px 0;
+    padding: 0 0 0 10px;
+}
